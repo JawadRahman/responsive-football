@@ -28,10 +28,10 @@ nav a {
 }
 .login-button a {
     background-color: #E02C6D;
-    transition: background-color 5s;
     padding: 10px 24px;
-    text-align: center;
     color: white;
+    text-align: center;
+    transition: background-color 10s;
 }
   /* requirment change something - background */
 
@@ -62,8 +62,8 @@ nav a {
 }    
 .half-width span {
     background-color: #E02C6D;
-    transition: background-color 5s;
     padding: 10px 24px;
+    transition: background-color 5s;
 }
 /* requirment change something - background */
 
@@ -147,3 +147,67 @@ nav a {
     margin-right: 80px;
 }
  /* Highlights section end */
+
+ /* Official Broadcasters start */
+ .broadcasters-section{
+    margin-bottom: 100px;
+    background-color: #2D25A0;
+    padding: 80px;
+}
+.broadcasters-title{
+    margin-bottom: 70px;
+}
+#broadcasters-h3{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.broadcasters-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.broadcasters-img img{
+    width: 200px;
+     
+}
+ /* Official Broadcasters end */
+
+ /* footer starts  */
+ .footer-section{
+    text-align: center;
+}
+.footer-section img{
+    width: 484px;
+    height: 110px;
+    margin-right: 150px;
+}
+.icons{
+    font-size: 20px;
+}
+.fa-instagram{
+    color: white;
+    background-color: #969BAB;
+    border-radius: 50px;
+    border: 3px solid #969BAB;
+}
+.fa-linkedin-in{
+    color: white;
+    background-color: #969BAB;
+    border-radius: 50px;
+    border: 3px solid #969BAB;
+}
+.fa-twitter{
+    color: white;
+    background-color: #969BAB;
+    border-radius: 50px;
+    border: 3px solid #969BAB;
+}
+.fa-youtube{
+    color: white;
+    background-color: #969BAB;
+    border-radius: 50px;
+    border: 3px solid #969BAB;
+}
+ /* footer end  */
