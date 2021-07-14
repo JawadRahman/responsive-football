@@ -12,32 +12,38 @@ body {
     background-color: #2D25A0;
 }
 /* nav-bar styles start */
-nav a {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-    color: #ffff;
-    margin-right: 36px;
-    line-height: 24px;
-    border: 2px solid rgba(255, 255, 255, 0);   
-}
 nav {
     margin-left: 156px;
     padding-top: 42px;
     display: flex;
     justify-content: space-between;
 }
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffff;
+    margin-right: 36px;
+    border: 1px solid rgba(255, 255, 255, 0);   
+}
 .login-button a {
     background-color: #E02C6D;
+    transition: background-color 5s;
     padding: 10px 24px;
     text-align: center;
     color: white;
+}
+  /* requirment change something - background */
+
+.login-button a:hover{
+    background-color: aqua;
 }
 .fa-sign-in-alt {
     color: #ffff;
     font-size: 16px;
 
 }
+/* nav-bar styles End */
 
 /* top banner styles starts */
 .flexible-container{
@@ -56,8 +62,13 @@ nav {
 }    
 .half-width span {
     background-color: #E02C6D;
+    transition: background-color 5s;
     padding: 10px 24px;
+}
+/* requirment change something - background */
 
+.half-width span:hover{
+    background-color:aqua;
 }
 .half-width span a {
     text-decoration: none;
@@ -71,4 +82,51 @@ nav {
     width: 557px;
     height: 438px;
 }
+/* top banner styles End */
 
+ /* Player Photo & details strat  */
+ .container {
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 165px;
+}
+.Player-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 45px;
+    margin-left: 180px;
+}
+
+.Player-card .Player-card-banner img {
+    width: 300px;
+    height: 256px;
+}
+
+.card-details h1 {
+    font-size: 28px;
+    line-height: 40px;
+}
+.cards-p {
+    font-size: 16px;
+    
+}
+.Player-card {
+    box-shadow: 10px 10px 5px whitesmoke;
+    border-radius: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 3px solid white;
+    
+}
+ /* Player Photo & details end  */
+
+
+ /* All Highlights starts */
+
+ /* All Highlights end */
